@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE255815224DA9EC00C8DB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255814224DA9EC00C8DB4D /* AppDelegate.swift */; };
+		DE255817224DA9EC00C8DB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255816224DA9EC00C8DB4D /* ViewController.swift */; };
+		DE25581A224DA9EC00C8DB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE255818224DA9EC00C8DB4D /* Main.storyboard */; };
+		DE25581D224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE25581B224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld */; };
+		DE25581F224DA9EE00C8DB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25581E224DA9EE00C8DB4D /* Assets.xcassets */; };
+		DE255822224DA9EE00C8DB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */; };
+		DE25582D224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25582C224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift */; };
+		DE255838224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255837224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE255829224DA9EE00C8DB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE255809224DA9EC00C8DB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE255810224DA9EC00C8DB4D;
+			remoteInfo = "ASiC Midterm-Exam Terry";
+		};
+		DE255834224DA9EE00C8DB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE255809224DA9EC00C8DB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE255810224DA9EC00C8DB4D;
+			remoteInfo = "ASiC Midterm-Exam Terry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE255811224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASiC Midterm-Exam Terry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE255814224DA9EC00C8DB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE255816224DA9EC00C8DB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE255819224DA9EC00C8DB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE25581C224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ASiC_Midterm_Exam_Terry.xcdatamodel; sourceTree = "<group>"; };
+		DE25581E224DA9EE00C8DB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE255821224DA9EE00C8DB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE255823224DA9EE00C8DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE255828224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASiC Midterm-Exam TerryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25582C224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASiC_Midterm_Exam_TerryTests.swift; sourceTree = "<group>"; };
+		DE25582E224DA9EE00C8DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE255833224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASiC Midterm-Exam TerryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE255837224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASiC_Midterm_Exam_TerryUITests.swift; sourceTree = "<group>"; };
+		DE255839224DA9EE00C8DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE25580E224DA9EC00C8DB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE255825224DA9EE00C8DB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE255830224DA9EE00C8DB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE255808224DA9EC00C8DB4D = {
+			isa = PBXGroup;
+			children = (
+				DE255813224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */,
+				DE25582B224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests */,
+				DE255836224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests */,
+				DE255812224DA9EC00C8DB4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE255812224DA9EC00C8DB4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE255811224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry.app */,
+				DE255828224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests.xctest */,
+				DE255833224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE255813224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */ = {
+			isa = PBXGroup;
+			children = (
+				DE255814224DA9EC00C8DB4D /* AppDelegate.swift */,
+				DE255816224DA9EC00C8DB4D /* ViewController.swift */,
+				DE255818224DA9EC00C8DB4D /* Main.storyboard */,
+				DE25581E224DA9EE00C8DB4D /* Assets.xcassets */,
+				DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */,
+				DE255823224DA9EE00C8DB4D /* Info.plist */,
+				DE25581B224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld */,
+			);
+			path = "ASiC Midterm-Exam Terry";
+			sourceTree = "<group>";
+		};
+		DE25582B224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE25582C224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift */,
+				DE25582E224DA9EE00C8DB4D /* Info.plist */,
+			);
+			path = "ASiC Midterm-Exam TerryTests";
+			sourceTree = "<group>";
+		};
+		DE255836224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE255837224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift */,
+				DE255839224DA9EE00C8DB4D /* Info.plist */,
+			);
+			path = "ASiC Midterm-Exam TerryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE255810224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25583C224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam Terry" */;
+			buildPhases = (
+				DE25580D224DA9EC00C8DB4D /* Sources */,
+				DE25580E224DA9EC00C8DB4D /* Frameworks */,
+				DE25580F224DA9EC00C8DB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASiC Midterm-Exam Terry";
+			productName = "ASiC Midterm-Exam Terry";
+			productReference = DE255811224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE255827224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25583F224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam TerryTests" */;
+			buildPhases = (
+				DE255824224DA9EE00C8DB4D /* Sources */,
+				DE255825224DA9EE00C8DB4D /* Frameworks */,
+				DE255826224DA9EE00C8DB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE25582A224DA9EE00C8DB4D /* PBXTargetDependency */,
+			);
+			name = "ASiC Midterm-Exam TerryTests";
+			productName = "ASiC Midterm-Exam TerryTests";
+			productReference = DE255828224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE255832224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE255842224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam TerryUITests" */;
+			buildPhases = (
+				DE25582F224DA9EE00C8DB4D /* Sources */,
+				DE255830224DA9EE00C8DB4D /* Frameworks */,
+				DE255831224DA9EE00C8DB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE255835224DA9EE00C8DB4D /* PBXTargetDependency */,
+			);
+			name = "ASiC Midterm-Exam TerryUITests";
+			productName = "ASiC Midterm-Exam TerryUITests";
+			productReference = DE255833224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE255809224DA9EC00C8DB4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Terry;
+				TargetAttributes = {
+					DE255810224DA9EC00C8DB4D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DE255827224DA9EE00C8DB4D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DE255810224DA9EC00C8DB4D;
+					};
+					DE255832224DA9EE00C8DB4D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DE255810224DA9EC00C8DB4D;
+					};
+				};
+			};
+			buildConfigurationList = DE25580C224DA9EC00C8DB4D /* Build configuration list for PBXProject "ASiC Midterm-Exam Terry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE255808224DA9EC00C8DB4D;
+			productRefGroup = DE255812224DA9EC00C8DB4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE255810224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */,
+				DE255827224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryTests */,
+				DE255832224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE25580F224DA9EC00C8DB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE255822224DA9EE00C8DB4D /* LaunchScreen.storyboard in Resources */,
+				DE25581F224DA9EE00C8DB4D /* Assets.xcassets in Resources */,
+				DE25581A224DA9EC00C8DB4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE255826224DA9EE00C8DB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE255831224DA9EE00C8DB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE25580D224DA9EC00C8DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25581D224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld in Sources */,
+				DE255817224DA9EC00C8DB4D /* ViewController.swift in Sources */,
+				DE255815224DA9EC00C8DB4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE255824224DA9EE00C8DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25582D224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25582F224DA9EE00C8DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE255838224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE25582A224DA9EE00C8DB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE255810224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */;
+			targetProxy = DE255829224DA9EE00C8DB4D /* PBXContainerItemProxy */;
+		};
+		DE255835224DA9EE00C8DB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE255810224DA9EC00C8DB4D /* ASiC Midterm-Exam Terry */;
+			targetProxy = DE255834224DA9EE00C8DB4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE255818224DA9EC00C8DB4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE255819224DA9EC00C8DB4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE255821224DA9EE00C8DB4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE25583A224DA9EE00C8DB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE25583B224DA9EE00C8DB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE25583D224DA9EE00C8DB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam Terry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-Terry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE25583E224DA9EE00C8DB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam Terry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-Terry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE255840224DA9EE00C8DB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam TerryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-TerryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASiC Midterm-Exam Terry.app/ASiC Midterm-Exam Terry";
+			};
+			name = Debug;
+		};
+		DE255841224DA9EE00C8DB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam TerryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-TerryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASiC Midterm-Exam Terry.app/ASiC Midterm-Exam Terry";
+			};
+			name = Release;
+		};
+		DE255843224DA9EE00C8DB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam TerryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-TerryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASiC Midterm-Exam Terry";
+			};
+			name = Debug;
+		};
+		DE255844224DA9EE00C8DB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QRU3Z535;
+				INFOPLIST_FILE = "ASiC Midterm-Exam TerryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.terry.ASiC-Midterm-Exam-TerryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASiC Midterm-Exam Terry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE25580C224DA9EC00C8DB4D /* Build configuration list for PBXProject "ASiC Midterm-Exam Terry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25583A224DA9EE00C8DB4D /* Debug */,
+				DE25583B224DA9EE00C8DB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25583C224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam Terry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25583D224DA9EE00C8DB4D /* Debug */,
+				DE25583E224DA9EE00C8DB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25583F224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam TerryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE255840224DA9EE00C8DB4D /* Debug */,
+				DE255841224DA9EE00C8DB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE255842224DA9EE00C8DB4D /* Build configuration list for PBXNativeTarget "ASiC Midterm-Exam TerryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE255843224DA9EE00C8DB4D /* Debug */,
+				DE255844224DA9EE00C8DB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE25581B224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE25581C224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodel */,
+			);
+			currentVersion = DE25581C224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodel */;
+			path = ASiC_Midterm_Exam_Terry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE255809224DA9EC00C8DB4D /* Project object */;
+}
