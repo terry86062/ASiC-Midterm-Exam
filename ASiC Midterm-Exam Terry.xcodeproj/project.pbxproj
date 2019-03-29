@@ -15,6 +15,9 @@
 		DE255822224DA9EE00C8DB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */; };
 		DE25582D224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25582C224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryTests.swift */; };
 		DE255838224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255837224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift */; };
+		DE25584B224DB05500C8DB4D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25584A224DB05500C8DB4D /* NavigationController.swift */; };
+		DE25584D224DB5E900C8DB4D /* UIView - extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25584C224DB5E900C8DB4D /* UIView - extension.swift */; };
+		DE255851224E0E9500C8DB4D /* AVPlayer - extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE255850224E0E9500C8DB4D /* AVPlayer - extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DE255833224DA9EE00C8DB4D /* ASiC Midterm-Exam TerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASiC Midterm-Exam TerryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE255837224DA9EE00C8DB4D /* ASiC_Midterm_Exam_TerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASiC_Midterm_Exam_TerryUITests.swift; sourceTree = "<group>"; };
 		DE255839224DA9EE00C8DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25584A224DB05500C8DB4D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DE25584C224DB5E900C8DB4D /* UIView - extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView - extension.swift"; sourceTree = "<group>"; };
+		DE255850224E0E9500C8DB4D /* AVPlayer - extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer - extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				DE255814224DA9EC00C8DB4D /* AppDelegate.swift */,
-				DE255816224DA9EC00C8DB4D /* ViewController.swift */,
-				DE255818224DA9EC00C8DB4D /* Main.storyboard */,
-				DE25581E224DA9EE00C8DB4D /* Assets.xcassets */,
-				DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */,
 				DE255823224DA9EE00C8DB4D /* Info.plist */,
-				DE25581B224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld */,
+				DE255846224DAB0200C8DB4D /* Model */,
+				DE255847224DAB0B00C8DB4D /* View */,
+				DE255845224DAAF000C8DB4D /* Controller */,
+				DE255849224DAC9C00C8DB4D /* Extension */,
+				DE255848224DAB3A00C8DB4D /* Resource */,
 			);
 			path = "ASiC Midterm-Exam Terry";
 			sourceTree = "<group>";
@@ -126,6 +132,49 @@
 				DE255839224DA9EE00C8DB4D /* Info.plist */,
 			);
 			path = "ASiC Midterm-Exam TerryUITests";
+			sourceTree = "<group>";
+		};
+		DE255845224DAAF000C8DB4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE25584A224DB05500C8DB4D /* NavigationController.swift */,
+				DE255816224DA9EC00C8DB4D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE255846224DAB0200C8DB4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE25581B224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE255847224DAB0B00C8DB4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE255820224DA9EE00C8DB4D /* LaunchScreen.storyboard */,
+				DE255818224DA9EC00C8DB4D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE255848224DAB3A00C8DB4D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE25581E224DA9EE00C8DB4D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE255849224DAC9C00C8DB4D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE25584C224DB5E900C8DB4D /* UIView - extension.swift */,
+				DE255850224E0E9500C8DB4D /* AVPlayer - extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE25581D224DA9EC00C8DB4D /* ASiC_Midterm_Exam_Terry.xcdatamodeld in Sources */,
+				DE255851224E0E9500C8DB4D /* AVPlayer - extension.swift in Sources */,
+				DE25584B224DB05500C8DB4D /* NavigationController.swift in Sources */,
+				DE25584D224DB5E900C8DB4D /* UIView - extension.swift in Sources */,
 				DE255817224DA9EC00C8DB4D /* ViewController.swift in Sources */,
 				DE255815224DA9EC00C8DB4D /* AppDelegate.swift in Sources */,
 			);
